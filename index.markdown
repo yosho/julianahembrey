@@ -13,7 +13,10 @@ layout: home
   <body>
     <div align="center" >
       <h1>{{ "Hello World!" | downcase }}</h1>
-      <h2>This is Jasmine's Page!</h2>
+      <h2>This is Juliana's Page!</h2>
+      <div style="height: 30px;"> </div>
+
+      {% include content.html %}
     </div>
   </body>
 </html>
